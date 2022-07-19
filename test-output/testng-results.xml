@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-19T22:52:57 BDT" name="Default suite" finished-at="2022-03-19T22:53:59 BDT" duration-ms="62372">
+    <groups>
+    </groups>
+    <test started-at="2022-03-19T22:52:57 BDT" name="Default test" finished-at="2022-03-19T22:53:59 BDT" duration-ms="62372">
+      <class name="testCasesPackage.T002_Login_And_Purchase">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCasesPackage.T002_Login_And_Purchase@73302995]" started-at="2022-03-19T22:52:46 BDT" name="setUp" finished-at="2022-03-19T22:52:57 BDT" duration-ms="10904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginAndPurchase(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCasesPackage.T002_Login_And_Purchase@73302995]" started-at="2022-03-19T22:52:57 BDT" name="loginAndPurchase" description="Perform Login, Purchase, and Logout" data-provider="userInfo" finished-at="2022-03-19T22:53:32 BDT" duration-ms="34941" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[johnKanir105@gmalla.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testpass123@]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Call before knock the door]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAndPurchase -->
+        <test-method signature="loginAndPurchase(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCasesPackage.T002_Login_And_Purchase@73302995]" started-at="2022-03-19T22:53:32 BDT" name="loginAndPurchase" description="Perform Login, Purchase, and Logout" data-provider="userInfo" finished-at="2022-03-19T22:53:59 BDT" duration-ms="27330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jacyjane105@dffda.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[@testpass123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Be aware about dog]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAndPurchase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCasesPackage.T002_Login_And_Purchase@73302995]" started-at="2022-03-19T22:54:00 BDT" name="tearDown" finished-at="2022-03-19T22:54:00 BDT" duration-ms="703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCasesPackage.T002_Login_And_Purchase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
